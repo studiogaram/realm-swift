@@ -57,6 +57,7 @@ Switch to building the Carthage release with Xcode 14.1.
 * Some sync errors sent by the server include a link to the server-side logs
   associated with that error. This link is now exposed in the `serverLogURL`
   property on `SyncError` (or `RLMServerLogURLKey` userInfo field when using NSError).
+* Migrate all our CI jobs to Xcode cloud.
 
 ### Fixed
 
