@@ -5,7 +5,7 @@ Pod::Spec.new do |s|
   s.cocoapods_version       = '>= 1.10'
   s.summary                 = 'Realm is a modern data framework & database for iOS, macOS, tvOS & watchOS.'
   s.homepage                = "https://realm.io"
-  s.source                  = { :http => 'http://github.com/studiogaram/Realm/releases/download/5.5.1_xcframework/Realm.xcframework.zip' }
+  s.source                  = { :http => 'http://github.com/studiogaram/Realm/releases/download/5.5.1/Realm.xcframework.zip' }
   s.author                  = { 'Realm' => 'help@realm.io' }
   s.requires_arc            = true
   s.social_media_url        = 'https://twitter.com/realm'
