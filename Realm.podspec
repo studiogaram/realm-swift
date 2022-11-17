@@ -19,9 +19,4 @@ Pod::Spec.new do |s|
 
   s.ios.deployment_target   = '9.0'
   s.ios.vendored_frameworks  = 'Realm.xcframework'
-
-  s.subspec 'Headers' do |s|
-    s.source_files          = public_header_files
-    s.public_header_files   = public_header_files
-  end
 end
